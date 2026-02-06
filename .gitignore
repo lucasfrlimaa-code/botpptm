@@ -1,0 +1,30 @@
+# Arquivos de autenticação do WhatsApp
+auth_info/
+backup/
+
+# Variáveis de ambiente (contém credenciais)
+.env
+
+# Logs
+logs/
+*.log
+
+# Cache
+cachePlanilhas.json
+
+# Node modules
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

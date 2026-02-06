@@ -1,0 +1,25 @@
+{
+  "name": "bot-whatsapp-estoque",
+  "version": "2.1.0",
+  "description": "Bot WhatsApp para consulta de estoque via API Sigma",
+  "main": "bot.cjs",
+  "scripts": {
+    "start": "node bot.cjs",
+    "dev": "node bot.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["whatsapp", "bot", "estoque", "automation"],
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.5",
+    "pino": "^9.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
